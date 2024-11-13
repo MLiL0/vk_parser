@@ -40,10 +40,10 @@ delay = 60
 print(os.getcwd())
 
 # Путь к файлу для хранения ID постов
-seen_posts_file = "D:\\projects\\pyton_tests\\tests\\parser\\seen_posts.txt"
-keywords_file = "D:\\projects\\pyton_tests\\tests\\parser\\keywords.txt"
-days_gone_file = "D:\\projects\\pyton_tests\\tests\\parser\\days_gone.txt"
-groups_file = "D:\\projects\\pyton_tests\\tests\\parser\\groups.txt"
+seen_posts_file = "seen_posts.txt"
+keywords_file = "keywords.txt"
+days_gone_file = "days_gone.txt"
+groups_file = "groups.txt"
 
 def load_list(file):
     """Загружает список string из файла"""
