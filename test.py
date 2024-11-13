@@ -2,7 +2,6 @@ import vk_api
 import time
 from datetime import datetime, timedelta
 from plyer import notification
-import winsound
 import os
 
 import requests
